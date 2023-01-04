@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>パチバン Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      function twoDigit(num) {
+        let ret;
+        if (num < 10) ret = "0" + num;
+        else ret = num;
+        return ret;
+      }
+      function showClock() {
+        let nowTime = new Date();
+        let nowHour = twoDigit(nowTime.getHours());
+        let nowMin = twoDigit(nowTime.getMinutes());
+        let nowSec = twoDigit(nowTime.getSeconds());
+        let msg = "現在時刻：" + nowHour + " : " + nowMin + " : " + nowSec;
+        document.getElementById("realtime").innerHTML = msg;
+      }
+      setInterval("showClock()", 1000);
+    </script>
+    <link rel="icon" href="https://cdn.glitch.global/0e2369e9-c0b6-434c-9214-23f35857bb13/Logo%E4%B8%B8.png?v=1671621937738">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <h1>ホームページ</h1>
+    <p>
+      <fu>
+        サイト所有者[<a href="//scratch.mit.edu/users/_patipatibantyou_/">Patiban</a>]
+        協力者[<a href="//scratch.mit.edu/users/yamaguchi03/">Haruymth</a>]</fu>
+    </p>
+    <h3>パチバンについて</h3>
+    <p>
+      <fu>プログラミング初心者</fu><br>
+      <fu>[ HTML5 / CSS3 / JavaScript ]を勉強中･･･</fu><br>
+      <fu>今はJavaScriptを中心に勉強している</fu><br>
+      <fu>2009年2月14日生まれ</fu><br /><fu>現在：<span id="age"></span>歳</fu>
+    </p>
+    <script>
+      let nowDate = new Date();
+      let birthDate = new Date("2009/3/1");
+      let ms = nowDate.getTime() - birthDate.getTime();
+      let age = Math.floor(ms / (1000 * 60 * 60 * 24 * 365));
+      document.getElementById("age").innerHTML = age;
+    </script>
+    <h3>目標</h3>
+    <p>
+    <fu>Scratch</fu>
+    <br>
+    <fu><s>[ フォロワー500人 ]</s></fu><br>
+    <s><fu>[ フォロワー1000人 ]</fu></s><br>
+    <fu>[ フォロワー1500人 ]</fu><br>
+    </p>
+    <h3>Script配布</h3>
+    <p>
+      <fu>Scratch用で色々な人が作ったコードをまとめています。</fu><br>
+      <fu>
+        閲覧にはパスワードが必要なので知りたい人は<a href="//scratch.mit.edu/users/_patipatibantyou_/">_patipatibantyou_</a>のコメント欄で聞いてください。</fu>
+      <br><fu>※教える条件は<a href="//scratch.mit.edu/users/_patipatibantyou_">Patiban</a>と<a href="//scratch.mit.edu/users/yamaguchi03">Haruymth</a>のフォローです。</fu>
+      <br><fu>※私orハルさんが判断するため無理ということが多々あります。</fu>
+      <br><fu>※技術力がある人でも無理やり入らないでください。(入った場合は<a href="//scratch.mit.edu/users/_patipatibantyou_">Patiban</a>と<a href="//scratch.mit.edu/users/yamaguchi03">Haruymth</a>をフォローしてください)</fu>
+    </p>
+    <main>
+      <font size="4">
+        <b><p id="realtime"></p></b></font>
+    </main>
+    <center>このサイトには<a href="https://www.free-counter.jp/"><img src="https://www.f-counter.net/j/49/1671347695/" alt="アクセスカウンター"></a>人が訪問しています</center>
+    
+    <script src="/include.js"></script>
+  </body>
+</html>
