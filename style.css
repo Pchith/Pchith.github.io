@@ -205,3 +205,16 @@ li{
 .menu-btn span:after {
     top: 8px;
 }
+.round {
+	border-radius:6px;
+	background-color:#0078D4;
+	color:#000000;
+	min-height:42px;
+	height:auto;
+	box-shadow:none;
+	text-align:center;
+	font-weight:700;
+	cursor:pointer;
+	font-family:"shfont";
+	border:none;
+}
