@@ -205,3 +205,11 @@ li{
 .menu-btn span:after {
     top: 8px;
 }
+.title {
+	font-size: 5rem;
+	text-transform: none;
+	font-weight: normal;
+}
+.anim {
+	animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) 0s 1 normal;
+}
