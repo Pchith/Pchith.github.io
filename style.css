@@ -97,6 +97,7 @@ button{
   user-select: none;
   border:none;
   cursor: pointer;
+  margin-left:20px;
 }
 
 button:hover{
@@ -109,6 +110,7 @@ button:hover{
   user-select: none;
   opacity:0.8;
   cursor: pointer;
+  margin-left:20px;
 }
 #sidebartoggle{
   margin: 0 0 0 auto;
