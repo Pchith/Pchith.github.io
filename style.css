@@ -227,12 +227,11 @@ body {
 .header-logo {
   float: left;
   font-size: 36px;
-  padding:20px 40px;
+  padding:10px 20px;
 }
 
 .main {
   background-color: #bdf7f1;
-  height: 600px;
 }
 
 .footer {
