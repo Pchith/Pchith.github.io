@@ -3,5 +3,5 @@
   let headertop=await (await fetch("/headertop.html")).text();
     let headertop2=document.createElement("headertop");
     headertop2.innerHTML=headertop;
-    document.body.appendChild(headertop2)
+    document.body.insertBefore(headertop2,document.body.firstChild);
 })())
