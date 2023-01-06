@@ -207,3 +207,14 @@ li{
 .menu-btn span:after {
     top: 8px;
 }
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
