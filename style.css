@@ -18,11 +18,11 @@ a {
   --link-color:#000000;
   --background-color:#483D8B;
   --code-color:#ffffff;*/
-  --main-color:#000000;
+  --main-color:#ffffff;
   --header-color:#6C93E6;
   --footer-color:#969BA4;
   --link-color:#000000;
-  --background-color:#dedede;
+  --background-color:#5a1e9c;
   --code-color:#ffffff;
 }
 html {
@@ -46,7 +46,7 @@ body {
 }
 h1 {
   padding-left:10px;
-  color:#ffffff;
+  color:var(--main-color);
   border-radius:2px;
   font-size:30px;
   background-color:#3c3273;
@@ -60,7 +60,7 @@ h2 {
   padding:10px;
   padding-left:10px;
   border-left: solid 5px var(--header-color);
-  color:#ffffff;
+  color:var(--main-color);
   border-radius:2px;
   font-size:20px;
   margin-left:5px;
@@ -74,7 +74,7 @@ h3 {
   padding:10px;
   padding-left:10px;
   border-left: solid 5px var(--header-color);
-  color:#ffffff;
+  color:var(--main-color);
   border-radius:2px;
   font-size:20px;
   margin-left:5px;
