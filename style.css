@@ -180,33 +180,36 @@ li{
 .menu-btn span,
 .menu-btn span:before,
 .menu-btn span:after {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 25px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    position: absolute;
+    content:'';
+    display:block;
+    height:3px;
+    width:25px;
+    border-radius:3px;
+    background-color:#ffffff;
+    position:absolute;
 }
 .menu-btn span:before {
-    bottom: 8px;
+    bottom:8px;
 }
 .menu-btn span:after {
-    top: 8px;
+    top:8px;
 }
 #topmg {
-  margin-top: 30px;
+  margin-top:30px;
 }
-p{
-  padding-left: 10px;
+p {
+  padding-left:10px;
 }
-.fu{
-  padding-left: 20px;
+.fu {
+  padding-left:20px;
+}
+.fuh {
+  padding-left:10px;
 }
 a {
   color:#ffffb3;
-  text-decoration: none;
-  font-weight: bold;
+  text-decoration:none;
+  font-weight:bold;
 }
 #border {
   border:solid 3px #6C93E6;
