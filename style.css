@@ -208,6 +208,6 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
-.border {
+#border {
   border:solid 3px #6C93E6;
 }
