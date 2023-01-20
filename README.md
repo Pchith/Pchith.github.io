@@ -1,4 +1,2 @@
-# Ptbnth WebSite
- 作成中
- 
- 質問や話は[ここで](https://github.com/Ptbnth/Ptbnth.github.io/issues/1)お願いします。
+# [Ptbnth WebSite](https://ptbnth.github.io)
+ 作成中のWebSiteなのでおかしいところが多々あると思いますが、許してください。
