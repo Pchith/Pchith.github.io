@@ -1,2 +1,3 @@
-# [https://ptbnth.github.io]Ptbnth.github.io
-作成中のWebSite
+# Ptbnth WebSite
+ 作成中
+ (Link)[https://ptbnth.github.io]
