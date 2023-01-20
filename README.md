@@ -1,4 +1,4 @@
 # Ptbnth WebSite
  作成中
  
- WebSite⇨(Link)[https://ptbnth.github.io]
+ 質問や話は[ここで](https://github.com/Ptbnth/Ptbnth.github.io/issues/1)お願いします。
