@@ -24,7 +24,7 @@ button.innerHTML="OK"
 button.onclick=async function(){
   if(await sha256(document.getElementById("password").value)=="92f1d3fbc0823fd59d8e774427379745dbf25824d7402e20387630ef3b4940e3"){
     document.body.innerHTML=archive;
-    document.cookie="patiban=ok;path=/;domain=listpage.glitch.me;max-age=2147483647";
+    document.cookie="patiban=ok;path=/;domain=ptbnth.github.io;max-age=2147483647";
     location.reload();
   }else{
     alert("パスワードが違います。")
