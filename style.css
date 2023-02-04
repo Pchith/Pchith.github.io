@@ -114,6 +114,9 @@ li{
   list-style:none;
   padding-left: 30px;
 }
+.hamburger-menu {
+    border:solid 1px #000000;
+}
 .menu-content {
     width: 200px;
     height: 100%;
