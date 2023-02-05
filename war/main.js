@@ -14,7 +14,7 @@ function getCookieValue(key) {
     return '';
 }
 let archive=document.body.innerHTML;
-document.body.innerHTML="このサイトのパスワードを入力(悪用防止)<br>";
+document.body.innerHTML="<br><br><br><br>このサイトのパスワードを入力(悪用防止)<br>";
 let input=document.createElement("input");
 input.type="text";
 input.id="password";
