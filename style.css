@@ -79,9 +79,9 @@ button {
   font-weight:600;
   background-color:var(--header-color);
   padding:10px;
-  user-select: none;
+  user-select:none;
   border:none;
-  cursor: pointer;
+  cursor:pointer;
   margin-left:20px;
 }
 
@@ -92,9 +92,9 @@ button:hover {
   font-weight:600;
   background-color:var(--header-color);
   padding:10px;
-  user-select: none;
+  user-select:none;
   opacity:0.8;
-  cursor: pointer;
+  cursor:pointer;
   margin-left:20px;
 }
 #sidebartoggle {
@@ -210,6 +210,10 @@ a {
   text-decoration:none;
   font-weight:bold;
 }
+a:hover {
+  color:#e3e39f;
+  text-decoration:underline;
+  font-weight:bold;
 #border {
   border-left:solid 5px #6C93E6;
   border-top:solid 3px #6C93E6;
