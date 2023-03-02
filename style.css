@@ -113,6 +113,10 @@ li{
   list-style:none;
   padding-left: 30px;
 }
+.hamburger-menu {
+  opacity:0.5;
+  background-color:transparent;
+}
 .menu-content {
     width: 200px;
     height: 100%;
