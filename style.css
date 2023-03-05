@@ -122,8 +122,6 @@ li{
     z-index: 80;
     background-color: #415785;
     transition: all 0.3s;
-    opacity:0.5;
-    background-color:transparent;
 }
 .menu-content ul {
     padding: 70px 10px 0;
