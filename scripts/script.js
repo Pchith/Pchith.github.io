@@ -1,3 +1,4 @@
+//haruymthさんのharuymth.github.io/scriptsから引用
 window.addEventListener('DOMContentLoaded', function() {
 	var code=document.getElementsByClassName("script");
 for(let i=0;i<code.length;i++){
