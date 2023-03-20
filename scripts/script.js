@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	var code=document.getElementsByClassName("script");
 for(let i=0;i<code.length;i++){
   var div=document.createElement("div");
-  div.style="display: flex;";
+  div.style="display:flex; padding-left:20px;";
     div.innerHTML=`
   <button class="button" onclick="copyScripts(this.parentNode.previousElementSibling);">Copy</button>
   <main style="margin:auto 0 0 0;padding:7px;font-size:15px;opacity:0;transition: opacity 0.2s;">Copied!</main>
