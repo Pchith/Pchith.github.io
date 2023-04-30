@@ -9,7 +9,7 @@
 
   window.addEventListener("DOMContentLoaded",(async()=>{
   let headertop=await (await fetch("/headertop.html")).text();
-    let headertop2=document.createElement("headertop");
+    let headertop2=document.createElement("header");
     headertop2.innerHTML=headertop;
     document.body.appendChild(headertop2)
 })())
